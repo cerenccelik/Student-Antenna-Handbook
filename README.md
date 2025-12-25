@@ -37,7 +37,7 @@ Each module consists of:
 ## 01. Electromagnetic Waves & Frequency Theory
 
 ### 1. Introduction: The Fabric of RF
-Before designing antennas, we must understand the medium: The Electromagnetic (EM) Wave. An EM wave consists of an Electric Field ($E$) and a Magnetic Field ($H$) oscillating perpendicular to each other.
+Before designing antennas, we must understand The Electromagnetic (EM) Wave. An EM wave consists of an Electric Field ($E$) and a Magnetic Field ($H$) oscillating perpendicular to each other.
 
 ### 2. The Fundamental Equation
 The most critical relationship in RF Engineering determines the physical size of every component. It links Speed of Light ($c$), Frequency ($f$), and Wavelength ($\lambda$):
