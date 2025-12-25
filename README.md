@@ -55,7 +55,7 @@ The simulation compares a 1 GHz signal vs. a 2.4 GHz signal in the time domain.
 * **Top Plot (1 GHz):** Longer wavelength, "stretched" wave.
 * **Bottom Plot (2.4 GHz):** Shorter wavelength, oscillates much faster within the same time window.
 
-![Wave Visualization](images/wave_visualizaton.png)
+![Wave Visualization](assets/wave_visualizaton.png)
 
 ---
 
@@ -83,7 +83,7 @@ $$VSWR = \frac{1 + |\Gamma|}{1 - |\Gamma|}$$
 
 The script calculates reflection parameters for various load scenarios.
 
-![Reflection Calculator](images/reflection_calculator.png)
+![Reflection Calculator](assets/reflection_calculator.png)
 
 ---
 
@@ -100,9 +100,9 @@ The simplest matching circuit uses two components (Inductor and Capacitor) arran
 ### 3. Simulation & Visuals
 **Script:** `l_match_calculator.m`
 
-The script solves the complex algebra to find the exact component values needed to match a high-impedance load (e.g., $100\Omega$) to a $50\Omega$ source at 2.4 GHz.
+The script solves to find the component values needed to match a high-impedance load (e.g., $100\Omega$) to a $50\Omega$ source at 2.4 GHz.
 
-![L-Match Calculator](images/l_match_calculator.png)
+![L-Match Calculator](assets/l_match_calculator.png)
 
 ---
 
@@ -124,7 +124,7 @@ An antenna does not radiate power equally in all directions.
 
 The polar plot compares an Isotropic radiator (Blue dashed) against a Directional beam (Red solid). Note the "lobe" pointing to 0°, indicating high gain in that direction.
 
-![Radiation Patterns](images/plot_radiation.png)
+![Radiation Patterns](assets/plot_radiation.png)
 
 ---
 
@@ -145,7 +145,7 @@ The plot shows the E-Plane radiation pattern.
 * **Shape:** Figure-8 (or Donut in 3D).
 * **Nulls:** No radiation along the wire axis ($0^\circ$ and $180^\circ$). This visually proves why you should never point the tip of a dipole antenna at the receiver.
 
-![Dipole Visualization](images/dipole_viz.png)
+![Dipole Visualization](assets/dipole_viz.png)
 
 ---
 
