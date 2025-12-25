@@ -20,7 +20,6 @@
 5. [Module 04: Antenna Parameters & Radiation](#04-antenna-parameters--radiation)
 6. [Module 05: The Half-Wave Dipole](#05-the-half-wave-dipole-theory)
 7. [Installation & Usage](#-installation--usage)
-8. [Contact](#-contact)
 
 ---
 
